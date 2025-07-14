@@ -9,7 +9,7 @@ int countZeros(int arr[], int n) {
 
         if (arr[mid] == 0) {
             firstZeroIndex = mid;
-            high = mid - 1; // Look for earlier 0s
+            high = mid - 1; 
         } else {
             low = mid + 1;
         }
